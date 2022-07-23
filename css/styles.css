@@ -592,8 +592,8 @@ span.footer-accent {
     color:#FFFFFF;
 background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
-  transition: color 250ms var(--cubic);
-    transition: background-color 250ms var(--cubic);
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
+    
 }
 .footer-link:hover,
 .footer-link:focus{
@@ -664,8 +664,8 @@ background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
   border: none;
   
-  transition: color 250ms var(--cubic);
-  transition: background-color 250ms var(--cubic);
+  transition: color 250ms var(--cubic), background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
+  
 
 }
 
@@ -673,7 +673,6 @@ background-color: rgba(255, 255, 255, 0.1);
 .btn:focus {
   background-color: var(--acctent-color);
   color: #ffffff;
-
     border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -739,8 +738,8 @@ padding: 63px 24px;
   margin-right: 30px;
   margin-bottom: 30px;
   border: 1px solid #EEEEEE;
-  transition:  background-color 250ms var(--cubic);
-  transition: box-shadow 250ms var(--cubic);
+  transition:  background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
+
   
 }
 .portfolio-item:hover{
